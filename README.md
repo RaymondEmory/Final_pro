@@ -14,6 +14,3 @@ docker run -it raymondc25/project
 # For example: 
 mkdir ~/docker_output/
 docker run -v ~/docker_output:/project/output project
-
-# Then you can find the report.html in the directory that you created on your local computer, 
-# OR you can decide any directory you want to assign on by running "docker run -v /filepath:/project/output ex-proj" alone. 
