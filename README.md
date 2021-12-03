@@ -12,4 +12,5 @@ docker run -it raymondc25/project
 
 ## Retrieve from the container and build the report in your local directory: 
 mkdir ~/docker_output/
+
 docker run -v ~/docker_output:/project/output project
